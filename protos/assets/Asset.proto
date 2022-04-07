@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package creator_content.assets;
+
+option csharp_namespace = "CreatorContent.Assets";
+
+message Asset {
+  string name = 1;
+  string description = 2;
+}
